@@ -21,3 +21,8 @@ Esta red se trata de 3D-Unet (https://arxiv.org/abs/1606.06650).
 El número de datos de nuestro dataset es muy limitado (10 sujetos), por lo tanto, en el preprocesado hemos decidido realizar data aumentation, y hemos entrenado subsamples de tamaño (64,64,64) del tamaño original de las imagénes de (144, 192, 256). De este modo aumentamos la muestra de entrenamiento consideramente.
 
 Usando estás técnicas de preprocesmiento, más el estado del arte en arquitecturas de redes neuronales convolucionales para la segmentación, conseguimos obtener segmentar la materia gris, materia blanca, fluido cerebal y fondo de cerebros infantiles con una presición del 82%.
+
+## AnalisisResultados
+
+En este NoteBook analizamos los resultados obtenidos en los distintos modelos, comentando qué decisiones se han tomado de cara a mejorar el ajuste de los mismos. Representamos en cada uno de los modelos la evolución del DSC y de la Loss Function a lo largo de las diferentes Epochs, tanto para Training como para Validation.
+
